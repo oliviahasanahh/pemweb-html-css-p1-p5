@@ -1,0 +1,14 @@
+body {
+    font-family: Arial, Helvetica, sans-serif; /* +fallback */
+    font-size: 16px;
+    line-height: 1.6;   /* × font-size, tanpa satuan */
+    color: #333;
+}
+h1 {
+    font-size: 40px;
+    font-weight: 700;            /* 100-900 */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+p   { text-align: justify; }
+a   { text-decoration: none; }   /* hapus garis link */

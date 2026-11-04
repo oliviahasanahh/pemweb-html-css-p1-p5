@@ -1,0 +1,16 @@
+/* Descendant: SEMUA p di dalam div */
+div p   { color: gray; }
+
+/* Child > : hanya p ANAK LANGSUNG div */
+div > p { color: navy; }
+
+/* Adjacent + : p TEPAT SETELAH h2 */
+h2 + p  { font-style: italic; }
+
+/* General ~ : semua p setelah h2 */
+h2 ~ p  { margin-left: 20px; }
+
+/* HTML:
+<div><p>anak → navy</p>
+     <section><p>cucu → gray saja</p></section>
+</div> */

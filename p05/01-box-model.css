@@ -1,0 +1,14 @@
+.kotak {
+    width: 200px;  height: 100px;
+
+    padding: 20px;                /* semua sisi */
+    padding: 10px 20px;           /* atas-bawah | kiri-kanan */
+    padding: 10px 20px 30px 40px; /* atas kanan bawah kiri
+                                     (searah jarum jam) */
+
+    border: 2px solid #E8622D;    /* tebal|gaya|warna */
+    border-top: 4px solid navy;
+
+    margin: 30px;
+    margin: 0 auto;               /* CENTERING klasik! */
+}

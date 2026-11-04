@@ -1,0 +1,11 @@
+h1  { color: tomato; }              /* nama (140+) */
+h2  { color: #E8622D; }             /* HEX #RRGGBB */
+h3  { color: rgb(30,100,200); }     /* rgb 0-255 */
+p   { color: rgba(0,0,0,0.6); }     /* rgba + transparan */
+
+div { background-color: #F5F7FA; }  /* latar elemen */
+.card { border-color: orange; }     /* garis tepi */
+
+/* Properti warna:
+   color = teks | background-color = latar
+   border-color = tepi | opacity 0-1 = transparan */

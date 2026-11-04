@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validasi Bawaan HTML</title>
+</head>
+<body>
+<form action="#" method="post">
+    <input type="email" required>
+    <!-- wajib diisi + format email dicek browser -->
+
+    <input type="text" minlength="3" maxlength="20" required>
+
+    <input type="number" min="17" max="60">
+
+    <input type="password" pattern=".{8,}">
+    <!-- regex: minimal 8 karakter apa saja -->
+
+    <button type="submit">Kirim</button>
+</form>
+</body>
+</html>

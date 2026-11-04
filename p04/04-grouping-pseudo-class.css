@@ -1,0 +1,9 @@
+/* Grouping: satu aturan, banyak target */
+h1, h2, h3 { font-family: Georgia, serif; }
+
+/* Pseudo-class = keadaan elemen */
+a:hover        { color: orange; }   /* mouse di atas */
+a:active       { color: red; }      /* saat diklik */
+input:focus    { border-color: blue; } /* input aktif */
+li:first-child { font-weight: bold; }  /* item ke-1 */
+li:nth-child(2n) { background: #eee; } /* genap/zebra */

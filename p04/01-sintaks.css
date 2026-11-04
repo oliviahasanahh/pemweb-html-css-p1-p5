@@ -1,0 +1,10 @@
+/* Komentar CSS begini */
+
+  p           /* <- SELECTOR (memilih target) */
+{
+    color     :  red   ;  /* <- PROPERTI : NILAI ; */
+    font-size :  18px  ;  /* <- satu deklarasi per baris */
+}
+
+/* Satu aturan = selector { prop: nil; prop: nil; } */
+/* Titik koma ; WAJIB di tiap deklarasi */

@@ -1,0 +1,13 @@
+/* 1. Elemen — semua tag itu */
+p   { color: #333; }
+h1  { font-size: 32px; }
+
+/* 2. Class . — boleh dipakai banyak elemen */
+.kotak      { background: lightblue; }
+.btn-simpan { color: green; }
+
+/* 3. ID # — SATU elemen unik per halaman */
+#header { background: black; }
+
+/* 4. Universal * — semua elemen */
+* { box-sizing: border-box; }
